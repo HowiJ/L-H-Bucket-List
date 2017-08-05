@@ -1,0 +1,12 @@
+{
+  "name": "lhbucketlist",
+  "version": "1.0.0",
+  "description": "Lena and Howi's bucket list",
+  "main": "index.js",
+  "repository": "https://github.com/HowiJ/L-H-Bucket-List",
+  "author": "Howard Jiang & Lena Sabaeva",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^4.4.0"
+  }
+}
