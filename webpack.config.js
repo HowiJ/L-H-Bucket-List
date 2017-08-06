@@ -23,8 +23,13 @@ module.exports = {
         exclude: /node_modules/,
         use: [
           "babel-loader",
-          "eslint-loader",
+          // "eslint-loader",
         ]
+      },
+      {
+        test: /\.scss$/,
+        exclude: /node_modules/,
+        loaders: ['style-loader', 'css-loader', 'sass-loader']
       }
     ],
   },
