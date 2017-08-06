@@ -1,1 +1,3 @@
-console.log('Hello');
+import loader from './loader';
+
+loader();
